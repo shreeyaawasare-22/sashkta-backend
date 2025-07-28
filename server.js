@@ -19,6 +19,3 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 const escortRoutes = require('./backend/routes/escortRoutes');
 app.use('/api/escort', escortRoutes);
-
-const cors = require("cors");
-app.use(cors());
